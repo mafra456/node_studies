@@ -5,8 +5,17 @@
 			<title>Portal de notícias</title>
 		</head>
 	<body>
-
 		<h1>Notícia</h1>
-
+		<table>
+			<tr style = "font-weight: bold;">
+				<td>id</td>
+				<td>título da notícia</td>
+			</tr>
+			<tr>
+				<td><%= noticia[0].id_noticia %></td>
+				<td><%= noticia[0].titulo %></td>
+				<td><%= noticia[0].noticia %></td>
+			</tr>
+		</table>
 	</body>
 </html>
